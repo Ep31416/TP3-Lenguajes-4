@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Práctico N°3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Primer recuadro: Selección de archivo -->
+    <div class="tarjeta">
+        <p>Seleccionar Imagen:</p>
+        <!-- Ocultamos el input real para usar nuestro propio botón -->
+        <input type="file" id="inputArchivo" accept="image/*" style="display: none;">
+        <button id="btnSubir">Subir Archivo</button>
+    </div>
+
+    <!-- Segundo recuadro: Resultados (inicialmente oculto) -->
+    <div class="tarjeta" id="panelResultado" style="display: none;">
+        <p id="txtNombre">Nombre: </p>
+        <p id="txtTipo">Tipo: </p>
+        <p id="txtTamanio">Tamaño: </p>
+        
+        <img id="vistaPrevia" src="" alt="Vista previa de la imagen">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

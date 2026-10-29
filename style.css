@@ -1,0 +1,53 @@
+body {
+    background-color: #f4f4f9;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+    margin: 0;
+}
+
+.tarjeta {
+    background-color: white;
+    width: 90%;
+    max-width: 600px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.tarjeta p {
+    margin-top: 0;
+    margin-bottom: 15px;
+    color: #333;
+    font-size: 15px;
+}
+
+#btnSubir {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#btnSubir:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para los textos de información del archivo */
+#panelResultado p {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+#vistaPrevia {
+    max-width: 250px;
+    margin-top: 20px;
+    display: block;
+    border: 1px solid #eee;
+}
